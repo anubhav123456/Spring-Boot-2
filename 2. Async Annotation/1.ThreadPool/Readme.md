@@ -1,4 +1,3 @@
-Ohooo nice topic 🔥 This is **core foundation** for understanding `@Async` in Spring. Let’s convert all that into **clean, interview-ready notes** 🧠✍️
 
 ---
 
