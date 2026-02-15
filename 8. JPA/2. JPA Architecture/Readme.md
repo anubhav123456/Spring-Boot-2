@@ -210,16 +210,6 @@ Internally kya hota hai:
 
 ---
 
-# 🎯 Important Interview Points
-
-✔ EntityManagerFactory = Thread-safe
-✔ EntityManager = Not thread-safe
-✔ Persistence Context = First Level Cache
-✔ Flush vs Commit difference
-✔ Dirty Checking automatically hota hai
-
----
-
 # 🧠 Ek Line Me Summary
 
 > JPA ek abstraction layer hai jo Java Objects ko database tables me convert karta hai through EntityManager, Persistence Context, JPQL, Dialect aur JDBC.
