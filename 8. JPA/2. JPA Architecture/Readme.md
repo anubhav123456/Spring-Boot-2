@@ -52,7 +52,7 @@ Similarly, Entity Manager Factory ek **factory** hai jo multiple EntityManager c
 
 ---
 
-# 3️⃣ Entity Manager (EM) =  = Junior Chef 👨‍🍳
+# 3️⃣ Entity Manager (EM) =  Junior Chef 👨‍🍳
 
 Har customer order ke liye ek junior chef:
 
@@ -73,9 +73,13 @@ Har request / transaction ke liye usually ek Entity Manager use hota hai.
 
 ---
 
-# 🧠 4️⃣ Persistence Context (First Level Cache)
+# 🧠 4️⃣ Persistence Context (First Level Cache) = Junior Chef ka Working Table
 
-Ye ek memory area hai jahan:
+* Ingredients yahan rakhe hain
+* Jo bana rahe ho wahi temporarily stored hai
+* Final serve hone se pehle sab yahin hai
+
+Similarly, Persistence Context ek memory area hai jahan:
 
 * Entities temporarily stored rehti hain
 * Changes track hote hain
@@ -83,23 +87,17 @@ Ye ek memory area hai jahan:
 
 💡 Matlab:
 
-> Jab tum entity ko load karte ho, wo pehle yahan aati hai, DB me directly nahi jaati.
+> Jab tum entity ko load karte ho, wo pehle yahan aati hai, DB ma directly nahi jaati.
 
 Isliye agar same entity dubara fetch karo to DB hit nahi hota.
 
 ---
 
-# 🧾 5️⃣ Entities (1 : Many)
+# 5️⃣ Entities = = Dish (Burger, Pizza, etc.)🧾
+ 
+Each entity = ek dish
 
-Diagram me:
-
-```
-Persistence Context → Entity1
-                    → Entity2
-                    → EntityN
-```
-
-Entities kya hoti hain?
+Similarly, Entities kya hoti hain?
 
 * Java classes
 * @Entity annotation
@@ -181,23 +179,6 @@ Finally data yahan store hota hai.
 # 🎬 Ab Real-World Example Se Samjho (Food Delivery App 🍔)
 
 Socho tum Swiggy jaisa app bana rahe ho.
-
-
-
-
----
-
-## 🧠 Persistence Context = Chef ka Working Table
-
-* Ingredients yahan rakhe hain
-* Jo bana rahe ho wahi temporarily stored hai
-* Final serve hone se pehle sab yahin hai
-
----
-
-## 🧾 Entity = Dish (Burger, Pizza, etc.)
-
-Each entity = ek dish
 
 ---
 
