@@ -9,9 +9,16 @@
 
 ---
 
-# 🏗 1️⃣ Persistence Unit (PU)
+# 🏗 1️⃣ Persistence Unit (PU) = Restaurant ka Kitchen Setup
 
-👉 Ye configuration block hota hai (persistence.xml ya Spring Boot config me)
+* Gas kaha hai
+* Fridge kaha hai
+* Kis type ka stove hai
+
+Ye sab configuration hai.
+
+
+👉 Similarly, Persistence Unit configuration block hota hai (persistence.xml ya Spring Boot config me)
 
 Isme define hota hai:
 
@@ -25,12 +32,6 @@ Isme define hota hai:
 
 > Persistence Unit = "Database ka setting file"
 
-Diagram me:
-
-```
-Persistence Unit1 → EntityManagerFactory
-(1:1 relation)
-```
 
 Ek Persistence Unit ek EntityManagerFactory banata hai.
 
@@ -191,13 +192,7 @@ Socho tum Swiggy jaisa app bana rahe ho.
 
 ---
 
-## 🏢 Persistence Unit = Restaurant ka Kitchen Setup
 
-* Gas kaha hai
-* Fridge kaha hai
-* Kis type ka stove hai
-
-Ye sab configuration hai.
 
 ---
 
