@@ -37,18 +37,12 @@ Ek Persistence Unit ek EntityManagerFactory banata hai.
 
 ---
 
-# 🏭 2️⃣ EntityManagerFactory (EMF)
+# 🏭 2️⃣ Entity Manager Factory (EMF) = Head Chef 👨‍🍳
 
-Ye ek **factory** hai jo multiple EntityManager create karti hai.
+* Ek hi hota hai
+* Sab junior chefs ko assign karta hai
 
-Diagram me:
-
-```
-EntityManagerFactory → EntityManager 1
-                     → EntityManager 2
-                     → EntityManager N
-(1 : Many)
-```
+Similarly, Entity Manager Factory ek **factory** hai jo multiple EntityManager create karti hai.
 
 💡 Important:
 
@@ -190,16 +184,6 @@ Finally data yahan store hota hai.
 
 Socho tum Swiggy jaisa app bana rahe ho.
 
----
-
-
-
----
-
-## 🏭 EntityManagerFactory = Head Chef 👨‍🍳
-
-* Ek hi hota hai
-* Sab junior chefs ko assign karta hai
 
 ---
 
