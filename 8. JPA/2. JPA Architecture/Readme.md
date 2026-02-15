@@ -73,7 +73,7 @@ Har request / transaction ke liye usually ek Entity Manager use hota hai.
 
 ---
 
-# 🧠 4️⃣ Persistence Context (First Level Cache) = Junior Chef ka Working Table
+# 🧠 4️⃣ Persistence Context = Junior Chef ka Working Table
 
 * Ingredients yahan rakhe hain
 * Jo bana rahe ho wahi temporarily stored hai
@@ -84,6 +84,7 @@ Similarly, Persistence Context ek memory area hai jahan:
 * Entities temporarily stored rehti hain
 * Changes track hote hain
 * Dirty checking hoti hai
+* First Level Cache
 
 💡 Matlab:
 
