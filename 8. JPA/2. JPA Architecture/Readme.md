@@ -6,6 +6,7 @@
 
 ![JPA Architecture](Architecture.jpg)
 
+Think of a restaurant system.
 
 ---
 
@@ -144,9 +145,14 @@ SELECT u FROM User u WHERE u.name = 'Anubhav'
 
 ---
 
-# 🌍 7️⃣ Dialect
+# 7️⃣ Dialect = Language Translator 🌍
 
-Dialect ka kaam:
+Agar chef Italian hai aur customer Hindi me bol raha hai:
+
+Translator convert karega.
+
+
+Similarly, Dialect ka kaam:
 
 👉 JPQL ko specific database SQL me convert karna
 
@@ -160,53 +166,20 @@ Har database ka SQL thoda different hota hai.
 
 ---
 
-# 🔌 8️⃣ JDBC Driver
-
-Dialect se generate hua SQL:
-
-👉 JDBC ke through database ko bheja jata hai.
-
-Diagram:
-
-```
-Dialect → SQL → JDBC → DB
-```
-
----
-
-# 🛢 9️⃣ Database
-
-Finally data yahan store hota hai.
-
----
-
-# 🎬 Ab Real-World Example Se Samjho (Food Delivery App 🍔)
-
-Socho tum Swiggy jaisa app bana rahe ho.
-
-
----
-
-## 🌍 Dialect = Language Translator
-
-Agar chef Italian hai aur customer Hindi me bol raha hai:
-
-Translator convert karega.
-
-Same way:
-JPQL → Database specific SQL
-
----
-
-## 🔌 JDBC = Waiter
+# 🔌 8️⃣ JDBC Driver = Waiter
 
 Waiter order lekar kitchen se customer tak jata hai.
 
+Similarly, Dialect se generate hua SQL:
+
+👉 JDBC ke through database ko bheja jata hai.
+
+
 ---
 
-## 🛢 Database = Restaurant Store Room
+# 🛢 9️⃣ Database = Restaurant Store Room
 
-Final storage yahi hai.
+Finally data yahan store hota hai.
 
 ---
 
