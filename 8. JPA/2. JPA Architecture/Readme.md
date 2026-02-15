@@ -1,32 +1,11 @@
-Bhai 🔥 ab JPA Architecture ko **full detail + diagram + real world example** ke saath samajhte hain — simple aur interesting style me.
+
 
 ---
 
-# 📌 Pehle Diagram Ko Samjho (Step-by-Step Flow)
+# 📌 JPA Architecture
 
-Tumhare image me flow kuch aisa hai:
+![JPA Architecture](Architecture.jpg)
 
-```
-Persistence Unit (1:1)
-        ↓
-EntityManagerFactory (1)
-        ↓  (1 : Many)
-EntityManager 1, 2, ... N
-        ↓  (1 : 1)
-Persistence Context
-        ↓  (1 : Many)
-Entities
-        ↓
-JQL / JPQL
-        ↓
-Dialect
-        ↓
-JDBC Driver
-        ↓
-Database
-```
-
-Ab isko breakdown karte hain 👇
 
 ---
 
