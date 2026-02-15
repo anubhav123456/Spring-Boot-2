@@ -94,7 +94,7 @@ Isliye agar same entity dubara fetch karo to DB hit nahi hota.
 
 ---
 
-# 5️⃣ Entities = = Dish (Burger, Pizza, etc.)🧾
+# 5️⃣ Entities = Dish (Burger, Pizza, etc.)🧾
  
 Each entity = ek dish
 
@@ -117,27 +117,30 @@ public class User {
 
 ---
 
-# 🗣 6️⃣ JPQL (JPA Query Language)
+# 6️⃣ JPQL (JPA Query Language) = Customer ka Order 🗣 
 
-Diagram me:
+Customer bolta hai:
 
-```
-Entities → JQL → Dialect
-```
+> "Mujhe Chicken Burger do"
 
-JPQL SQL nahi hoti.
-Ye entity-based hoti hai.
+Wo table ka naam nahi bolta.
+Wo dish ka naam bolta hai.
+
+
+
+Similarly, JPQL SQL nahi hoti. Ye entity-based hoti hai.
+
+Note:
+
+* Table name nahi
+* Entity name use hota hai
+
 
 Example:
 
 ```java
 SELECT u FROM User u WHERE u.name = 'Anubhav'
 ```
-
-Note:
-
-* Table name nahi
-* Entity name use hota hai
 
 ---
 
@@ -181,16 +184,6 @@ Finally data yahan store hota hai.
 
 Socho tum Swiggy jaisa app bana rahe ho.
 
----
-
-## 🗣 JPQL = Customer ka Order
-
-Customer bolta hai:
-
-> "Mujhe Chicken Burger do"
-
-Wo table ka naam nahi bolta.
-Wo dish ka naam bolta hai.
 
 ---
 
