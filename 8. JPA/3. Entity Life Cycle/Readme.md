@@ -17,7 +17,9 @@ create karte ho,
 ➡️ internally ek **Persistence Context** bhi create hota hai.
 
 👉 Ye Persistence Context ek **first-level cache** hota hai.
+
 👉 Ye manage karta hai entity ke different states ko.
+
 👉 Ye decide karta hai kab DB ko hit karna hai.
 
 ---
