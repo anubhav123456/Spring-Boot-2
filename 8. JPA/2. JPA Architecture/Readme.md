@@ -52,10 +52,15 @@ Similarly, Entity Manager Factory ek **factory** hai jo multiple EntityManager c
 
 ---
 
-# 👨‍💼 3️⃣ EntityManager (EM)
+# 3️⃣ Entity Manager (EM) =  = Junior Chef 👨‍🍳
 
-Ye sabse important banda hai 😎
+Har customer order ke liye ek junior chef:
 
+* Order leta hai
+* Banata hai
+* Serve karta hai
+
+Similarly, Entity Manager sabse important banda hai 😎
 Ye karta kya hai?
 
 * Persist (save)
@@ -64,14 +69,7 @@ Ye karta kya hai?
 * Update
 * Query
 
-Har request / transaction ke liye usually ek EntityManager use hota hai.
-
-Diagram me:
-
-```
-EntityManager → Persistence Context
-(1 : 1)
-```
+Har request / transaction ke liye usually ek Entity Manager use hota hai.
 
 ---
 
@@ -185,15 +183,7 @@ Finally data yahan store hota hai.
 Socho tum Swiggy jaisa app bana rahe ho.
 
 
----
 
-## 👨‍🍳 EntityManager = Junior Chef
-
-Har customer order ke liye ek junior chef:
-
-* Order leta hai
-* Banata hai
-* Serve karta hai
 
 ---
 
