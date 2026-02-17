@@ -1,4 +1,4 @@
-# UUID Generation Type Explained
+# UUID Generation Type
 
 The `@GeneratedValue(strategy = GenerationType.UUID)` annotation in your code automatically generates a unique UUID (Universally Unique Identifier) as the primary key for your `Person` entity.
 
