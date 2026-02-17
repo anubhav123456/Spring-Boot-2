@@ -104,8 +104,11 @@ Use `@Embeddable` + `@EmbeddedId` when:
 # ⚠️ Common Mistakes
 
 ❌ Forgetting `equals()` and `hashCode()`
+
 ❌ Not implementing `Serializable`
+
 ❌ No default constructor
+
 ❌ Trying to use both `@Id` and `@EmbeddedId` together
 
 ---
